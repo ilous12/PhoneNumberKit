@@ -7,7 +7,7 @@ let package = Package(
         .iOS(.v12), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v4)
     ],
     products: [
-        .library(name: "PhoneNumberKit", targets: ["PhoneNumberKit"]))
+        .library(name: "PhoneNumberKit", targets: ["PhoneNumberKit"])
     ],
     targets: [
         .target(name: "PhoneNumberKit",
